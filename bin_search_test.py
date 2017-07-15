@@ -18,3 +18,4 @@ class BubbleSortTest(unittest.TestCase):
             checking_element = current_scenario[1]
             with self.subTest(i=sorted_array):
                 self.assertEquals(bin_search(sorted_array, checking_element), current_scenario[2])
+
