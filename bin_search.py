@@ -29,6 +29,3 @@ def bin_search(a: list, elem: int) -> range:
             return range(min_index(a, half), max_index(a, half))
 
 
-l = [1, 1, 1, 1, 3, 7, 10, 10, 10, 10, 10, 10]
-print(bin_search(l, 10))  # 5-10
-print(bin_search(l, 3))  # 0-3
