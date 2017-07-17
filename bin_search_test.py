@@ -3,7 +3,7 @@ import unittest
 from bin_search import bin_search
 
 
-class BubbleSortTest(unittest.TestCase):
+class BinSearchTest(unittest.TestCase):
     def test_bin_search(self):
         scenarios = [
             ([1, 2, 3, 4, 5], 5, range(4, 5)),
