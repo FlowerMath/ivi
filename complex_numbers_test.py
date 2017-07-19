@@ -78,7 +78,8 @@ class ComplexNumberTest(unittest.TestCase):
         scenarios = [
             (first_1, second_1, ComplexNumber(20 / 37, -9 / 37)),
             (first_2, second_2, ComplexNumber(0, 0)),
-            (first_3, second_3, ComplexNumber(-39 / 45, -3 / 45))
+            (first_3, second_3, ComplexNumber(-39 / 45, -3 / 45)),
+            (first_3, first_2, ComplexNumber('none (mod = 0)', 'none'))
         ]
 
         for current_scenario in scenarios:
